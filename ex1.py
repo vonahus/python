@@ -20,6 +20,12 @@
 # hours = time // 3600
 # minutes = (time - hours * 3600) // 60
 # seconds = time - (hours * 3600 + minutes * 60)
+# if hours < 9:
+#     hours = "0" + str(hours)
+# if minutes < 9:
+#     minutes = "0" + str(minutes)
+# if seconds < 9:
+#     seconds = "0" + str(seconds)
 # print(f"{hours}:{minutes}:{seconds}")
 
 # 3. Узнайте у пользователя число n.
